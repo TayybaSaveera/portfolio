@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
-  const [theme, setTheme] = useState("light");
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -25,8 +25,8 @@ function Navbar() {
     },
   ];
   return (
-    <nav>
-      <div className="container flex justify-between items-center py-3 sm:py-0   beig">
+    <nav className="bg-[#E7D4B5]">
+      <div className="container flex justify-between items-center py-3 sm:py-0  ">
         <h1 className="text-3xl font-bold">Tayyba Saveera</h1>
         {/* desktop menu */}
         <div className="hidden sm:block">

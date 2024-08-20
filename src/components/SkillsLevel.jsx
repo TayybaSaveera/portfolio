@@ -9,7 +9,7 @@ function SkillsLevel({ skillName, percentage }) {
       </div>
       <div className="w-full bg-slate-200 h-2 rounded-full">
         <div
-          className="h-2 bg-[#FEF3E2] rounded-full"
+          className="h-2 bg-[#E7D4B5] rounded-full"
           style={{ width: `${percentage}` }}
         ></div>
       </div>

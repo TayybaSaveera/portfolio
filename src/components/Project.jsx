@@ -25,7 +25,7 @@ function Project() {
       </div>
 
       {/* project 1*/}
-      <div className="grid sm:grid-cols-2  gap-4">
+      <div className="grid sm:grid-cols-2  gap-4 sm:px-40">
         <div className="tansform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg group contauner rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={clothing} layout="fill" objectFit="cover" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center ">
@@ -43,7 +43,7 @@ function Project() {
         </div>
 
         {/* project 1*/}
-
+        {/* 
         <div className="tansform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg group contauner rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={clothing} layout="fill" objectFit="cover" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center ">
@@ -58,11 +58,11 @@ function Project() {
               </div>
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* project 1*/}
 
-        <div className="tansform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg group contauner rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+        {/* <div className="tansform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg group contauner rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={clothing} layout="fill" objectFit="cover" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center ">
             <span className="text-2xl font-bold text-white tracking-wider">
@@ -76,7 +76,7 @@ function Project() {
               </div>
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

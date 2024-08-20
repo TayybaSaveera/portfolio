@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="container  sm:px-60  px-6   pt-4 " id="about">
+    <div className="container  sm:px-48 px-6   pt-4  " id="about">
       <div className="sm:order-2 relative font-bold">
         <div className="text-center text-6xl xl:text-8xl font-bold text-black/5 uppercase">
           About
@@ -16,16 +16,18 @@ function About() {
         <p className="text-4xl sm:text-6xl  font-bold ">I'm Tayyba</p>
 
         <p className="font-medium sm:text-2xl text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          I am a dedicated software engineering student with a strong focus on
+          full-stack development, particularly in the MERN stack. With a passion
+          for building scalable web applications, I combine backend logic with
+          intuitive front-end design to deliver dynamic user experiences.
+          Currently engaged in hands-on projects, I am continually improving my
+          expertise in JavaScript frameworks, database management, and API
+          integration, preparing for a successful career in software
+          engineering.
         </p>
       </div>
       <div className="flex gap-5 mt-4 sm:pb-10">
-        <div className="text-xl font-medium cursor-pointer bg-[#FEF3E2] hover:shadow-md hover:bg-[#D0B8A8] rounded-lg px-2 py-1">
+        <div className="text-xl font-medium cursor-pointer bg-[#E7D4B5] hover:shadow-md hover:bg-[#D1BB9E] rounded-lg px-4 py-2">
           <a
             href="\public\TayybaCV.pdf"
             download="cv.pdf"

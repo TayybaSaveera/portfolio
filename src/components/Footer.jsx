@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className=" text-black py-6">
+    <footer className=" text-black py-6 ">
       <div className="container mx-auto text-center">
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mb-6">

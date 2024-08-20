@@ -3,7 +3,7 @@ import SkillsLevel from "./SkillsLevel";
 
 function Skills() {
   return (
-    <section id="skills" className="container md:w-[70%] sm:py-16 py-10 ">
+    <section id="skills" className="container md:w-[70%] sm:py-16 py-10  ">
       <div className="grid items-center gap-4 grid-cols-1 sm:grid-cols-2 ">
         <div className="sm:order-2 relative font-bold">
           <div className="text-center text-6xl xl:text-8xl font-bold text-black/5 uppercase">
