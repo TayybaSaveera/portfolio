@@ -26,7 +26,7 @@ function Navbar() {
   ];
   return (
     <nav>
-      <div className="container flex justify-between items-center py-3 sm:py-0  bg-[#FEF3E2]">
+      <div className="container flex justify-between items-center py-3 sm:py-0   beig">
         <h1 className="text-3xl font-bold">Tayyba Saveera</h1>
         {/* desktop menu */}
         <div className="hidden sm:block">
